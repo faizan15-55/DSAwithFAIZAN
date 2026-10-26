@@ -2,6 +2,14 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
+    //   Arrays.sort(nums);
+    //   List<Integer> ls = new ArrayList<>();
+    //   int l = 0, r = nums.length-1;
+    //   while(l<=r){
+    //     int sum = nums[l]+nums[r];
+    //     if(sum == target) ls.add(l);ls.add(r);
+    //     else if(sum)
+    //   }
         // store value and index
         int[][] arr = new int[nums.length][2];
         for (int i = 0; i < nums.length; i++) {
