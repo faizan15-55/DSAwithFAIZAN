@@ -16,7 +16,7 @@ class Solution {
     //    }
     //    return true;
     // }
-   
+    // TC -> O(LogN)
     public boolean isThree(int n) {
 
         int count = 0;
