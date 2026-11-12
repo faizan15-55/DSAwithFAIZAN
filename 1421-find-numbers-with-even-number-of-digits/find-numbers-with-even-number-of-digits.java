@@ -5,10 +5,11 @@ class Solution {
             num = num/10; 
             count++;   
         }
-        if(count % 2 == 0) {
-            return true;
-        }  
-        return false;
+        // if(count % 2 == 0) {
+        //     return true;
+        // }  
+        // return false;
+        return count % 2 == 0;
     }
     public int findNumbers(int[] nums) {
         int count = 0;
